@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+
+:root {
+    /* Typography */
+    --ff: 'Outfit', sans-serif;
+    --fs: 0.938rem;
+
+
+    /* Colors */
+    --clr-background-container: hsl(0, 0%, 100%);
+    --clr-background: hsl(212, 45%, 89%);
+    --clr-footer: hsl(228, 45%, 44%);
+    --clr-font-h1: hsl(218, 44%, 22%);
+    --clr-font-body: hsl(220, 15%, 55%)
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 1.6em;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    background-color: var(--clr-background);
+    font-family: var(--ff);
+    font-size: var(--fs);
+}
+
+.container,
+footer {
+    width: 85%;
+}
+
+.container {
+    border-radius: 1.25rem;
+    background-color: var(--clr-background-container);
+    margin: auto;
+    width: 320px;
+    height: 497px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+
+main {
+    margin: auto;
+}
+
+p {
+    color: var(--clr-font-body);
+    font-size: 1em;
+    margin-bottom: 2.67em;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    letter-spacing: 0.19px;
+}
+
+h1 {
+    color: var(--clr-font-h1);
+    font-size: 1.47em;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+}
+
+h1,
+p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img,
+main {
+    margin-top: 1rem;
+    max-width: 90%;
+}
+
+img {
+    border-radius: 0.625rem;
+}
+
+footer {
+    font-size: var(--fs);
+    text-align: center;
+    margin-bottom: auto;
+}
+
+footer a {
+    color: var(--clr-footer);
+}
