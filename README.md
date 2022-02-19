@@ -26,7 +26,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/Christ-Kevin/qr-code-component-main.git)
+- Solution URL: [Solution GitHub](https://github.com/Christ-Kevin/qr-code-component-main.git)
 - Live Site URL: [live site URL](https://christ-kevin.github.io/qr-code-component-main/)
 
 ## My process
@@ -52,6 +52,6 @@ I would like to improve my workflow as a developper. With workflow I mean this p
 ## Author
 
 - LinkedIn - [Christ Kévin Touga Watat](https://www.linkedin.com/in/christ-k%C3%A9vin-touga-watat-32026712a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BwYH9yzk5RBy%2FhI2w%2FaFRAA%3D%3D)
-- Website - [Add your name here](https://christ-kevin.github.io/qr-code-component-main/)
+- Website - [Christ-Kevin](https://christ-kevin.github.io/qr-code-component-main/)
 - Frontend Mentor - [@Christ-Kevin](https://www.frontendmentor.io/profile/Christ-Kevin)
 - Twitter - [@WatatK](https://www.twitter.com/WatatK)
